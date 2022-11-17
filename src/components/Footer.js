@@ -13,12 +13,24 @@ const Footer = () => {
                         <a
                             className='btn btn-social-icon btn-instagram'
                             href='http://instagram.com/blackpointcoach'
+                            rel='noopener noreferrer'
+                            target='_blank'
                         >
                             <i className='fa fa-instagram' />
                         </a>{' '}
                         <a
+                            className='btn btn-social-icon btn-linkedin'
+                            href='http://linkedin.com/in/milan-sic-255176251/'
+                            rel='noopener noreferrer'
+                            target='_blank'
+                        >
+                            <i className='fa fa-linkedin' />
+                        </a>{' '}
+                        <a
                             className='btn btn-social-icon btn-facebook'
                             href='http://www.facebook.com/blackpointcoach'
+                            rel='noopener noreferrer'
+                            target='_blank'
                         >
                             <i className='fa fa-facebook' />
                         </a>
