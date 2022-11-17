@@ -6,7 +6,7 @@ h1,
 h2,
 h3,
 .card-body > .card-title {
-  font-family: 'Lobster', cursive;
+  font-family: 'Open Sans', sans-serif, 
 }
 
 .card-title {
@@ -15,7 +15,11 @@ h3,
 }
 
 h2 {
-  color: #3046c5;
+  color: black;
+}
+
+h5 {
+  color: white;
 }
 
 .card-img-overlay .card-title {
@@ -30,14 +34,15 @@ h2 {
 }
 
 .site-footer {
-  background-image: linear-gradient(#727275, white);
+  background-image: linear-gradient(#3e3e3f, white);
   padding: 20px 0;
   margin-top: 2rem;
 }
 
 .navbar-brand {
-  max-width: 4rem;
+  max-width: 6rem;
   margin-right: 2rem;
+  vertical-align: middle;
 }
 
 .navbar-brand img {
@@ -72,4 +77,8 @@ h2 {
 .page-exit-active {
   opacity: 0;
   transition: 300ms ease-in;
+}
+
+.right-align {
+  text-align: right
 }
