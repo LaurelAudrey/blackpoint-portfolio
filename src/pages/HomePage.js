@@ -1,9 +1,10 @@
 import { Container } from 'reactstrap'
+import DisplayList from '../features/homeDisplays/DisplayList'
 
 const HomePage = () => {
     return (
         <Container>
-            Home Page coming soon...
+            <DisplayList />
         </Container>
     )
 }

@@ -20,20 +20,29 @@ const Header = () => {
                     <h2>BLACKPOINT</h2>
                     <h4>Incremental improvement.<br/>Lasting Change.</h4>
             </NavbarBrand>
+
             <NavbarToggler onClick={() => setMenuOpen(!menuOpen)}/>
             <Collapse isOpen={menuOpen} navbar>
                 <Nav className='ms-auto text-light' navbar>
                     <NavItem>
-                        <i className='fa fa-home fa-lg' /> Home
+                        <NavLink className='nav-link' to='/'>
+                            <i className='fa fa-home fa-lg' /> Home
+                        </NavLink>
                     </NavItem>
                     <NavItem>
-                        <i className='fa fa-info fa-lg' /> About
+                        <NavLink className='nav-link' to='/about'>
+                            <i className='fa fa-info fa-lg' /> About
+                        </NavLink>
                     </NavItem>
                     <NavItem>
-                        <i className='fa fa-book fa-lg' /> Resources
+                        <NavLink className='nav-link' to='/resources'>
+                            <i className='fa fa-book fa-lg' /> Resources
+                        </NavLink>
                     </NavItem>
                     <NavItem>
-                        <i className='fa fa-address-card fa-lg' /> Contact
+                        <NavLink className='nav-link' to='/contact'>
+                            <i className='fa fa-address-card fa-lg' /> Contact
+                        </NavLink>
                     </NavItem>
                 </Nav>
             </Collapse>
