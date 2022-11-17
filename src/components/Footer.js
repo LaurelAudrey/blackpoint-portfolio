@@ -1,4 +1,5 @@
 import { Container, Row, Col } from 'reactstrap'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
     return (
@@ -7,13 +8,13 @@ const Footer = () => {
                 <Row>
                     <Col sm='4'>
                         <h5>LINKS</h5>
-                        Home
+                        <Link className='text-dark' to='/'>Home</Link>
                         <br />
-                        About Us 
+                        <Link className='text-dark' to='/about'>About</Link>
                         <br />
-                        Resources
+                        <Link className='text-dark' to='/resources'>Resources</Link>
                         <br />
-                        Contact
+                        <Link className='text-dark' to='/contact'>Contact</Link>
                     </Col>
                     <Col sm='4' className='text-center'>
                         <h5>SOCIAL</h5>

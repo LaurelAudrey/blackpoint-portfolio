@@ -82,3 +82,7 @@ h5 {
 .right-align {
   text-align: right
 }
+
+.navbar-nav .nav-navitem {
+  margin-right: 100px;
+}
