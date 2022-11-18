@@ -1,9 +1,10 @@
 import { Container } from 'reactstrap'
+import ConsultForm from '../features/consultations/ConsultForm'
 
 const ContactPage = () => {
     return (
         <Container>
-            Contact Page coming soon...
+            <ConsultForm />
         </Container>
     )
 }

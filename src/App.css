@@ -95,3 +95,8 @@ h5 {
 .nav-link > i {
   color: white;
 }
+
+.modal-header {
+  color: white;
+  background-color: black;
+}

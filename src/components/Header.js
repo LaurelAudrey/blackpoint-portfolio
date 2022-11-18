@@ -1,7 +1,6 @@
-import { useState } from 'react'
 import { Navbar, NavbarBrand } from 'reactstrap'
-import { NavLink } from 'react-router-dom'
 import BP_Logo from '../app/assets/img/BP_Logo.png'
+import ConsultForm from '../features/consultations/ConsultForm'
 
 const Header = () => {
 
@@ -12,6 +11,7 @@ const Header = () => {
                     <h2>BLACKPOINT</h2>
                     <h5>Incremental improvement.<br/>Lasting Change.</h5>
             </NavbarBrand>
+            <ConsultForm className='float-end'/>
         </Navbar>
     )
 }
