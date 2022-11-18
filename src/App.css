@@ -52,11 +52,16 @@ h5 {
   max-width: 6rem;
 }
 
-.navbar-dark {
-  background-color: #901cad;
+.navbar-light {
   background-image: linear-gradient(to right, #3e3e41, #88888b, #030303);
-  margin-bottom: 2rem;
   min-height: 8rem;
+}
+
+.navbar-dark {
+  color: white;
+  background-color: black;
+  margin-bottom: 2rem;
+  text-align: left;
 }
 
 .page-enter {
@@ -85,4 +90,8 @@ h5 {
 
 .navbar-nav .nav-navitem {
   margin-right: 100px;
+}
+
+.nav-link > i {
+  color: white;
 }

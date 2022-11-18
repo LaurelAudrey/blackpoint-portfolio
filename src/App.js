@@ -6,11 +6,13 @@ import AboutUsPage from './pages/AboutUs'
 import ContactPage from './pages/ContactPage'
 import ResourcesPage from './pages/ResourcesPage'
 import HomePage from './pages/HomePage'
+import SubHeader from './components/Subheader'
 
 function App() {
     return (
         <div className='App'>
             <Header />
+            <SubHeader />
             <Routes>
               <Route path='/' element={<HomePage />} />
               <Route path='about' element={<AboutUsPage />} />

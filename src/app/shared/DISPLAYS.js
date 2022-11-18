@@ -8,7 +8,7 @@ export const DISPLAYS = [
         name: 'Navigation',
         image: compass,
         description:
-            'In order to get where you want to go, you need to know where you are.'
+            'To get where you want to go, you need to know where you are.'
     },
     {
         id: 1,
