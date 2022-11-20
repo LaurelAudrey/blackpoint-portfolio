@@ -12,7 +12,7 @@ const SubHeader = () => {
     const [menuOpen, setMenuOpen] = useState(false)
 
     return (
-        <Navbar dark sticky='top' expand='md'>
+        <Navbar dark fixed expand='md'>
             <NavbarToggler onClick={() => setMenuOpen(!menuOpen)}/>
             <Collapse isOpen={menuOpen} navbar>
                 <Nav className='ms-auto text-light' navbar>
