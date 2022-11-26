@@ -14,8 +14,8 @@ const ConsultForm = () => {
 
     return (
         <>
-            <Button outline onClick={() => setModalOpen(true)}>
-                <i className='color-secondary' /> FREE CONSULTATION
+            <Button outline onClick={() => setModalOpen(true)} className='btn btn-light'>
+                <i className='color-light'/> FREE CONSULTATION
             </Button>
             <Modal isOpen={modalOpen}>
                 <ModalHeader toggle={() => setModalOpen(false)}>FREE CONSULTATION</ModalHeader>

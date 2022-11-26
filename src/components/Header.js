@@ -8,10 +8,10 @@ const Header = () => {
         <Navbar light color='primary' sticky='top' expand='md'>
             <NavbarBrand className='ms-5' href='/'>
                     <img src={BP_Logo} alt='blackpoint logo' class='float-start' />
-                    <h2>BLACKPOINT</h2>
-                    <h5>Incremental improvement.<br/>Lasting Change.</h5>
+                    <h1 className='mt-2'>BLACKPOINT COACHING</h1>
+                    <h5 className='mt-2'>&emsp;&ensp;. . incremental improvement for lasting change . .</h5>
             </NavbarBrand>
-            <ConsultForm className='float-end'/>
+            <ConsultForm className='float-right' />
         </Navbar>
     )
 }

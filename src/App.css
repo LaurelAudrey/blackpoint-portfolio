@@ -1,17 +1,24 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
-h1,
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
 h2,
 h3,
 .card-body > .card-title {
-  font-family: 'Open Sans', sans-serif, 
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .card-title {
   font-weight: 500;
   font-size: 1.25rem;
+}
+
+.card {
+  border: none !important;
 }
 
 h2 {
@@ -99,4 +106,16 @@ h5 {
 .modal-header {
   color: white;
   background-color: black;
+}
+
+span {
+  display: inline-block;
+}
+
+span > img {
+  width: 20%;
+}
+
+#italic {
+  font-style: italic;
 }
